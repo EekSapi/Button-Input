@@ -17,6 +17,7 @@
     <a href="https://devchallenges.io/challenges/ohgVTyJCbm5OZyTB2gNY">
       Challenge1
     </a>
+    <span> | </span>
     <a href="https://devchallenges.io/challenges/TSqutYM4c5WtluM7QzGp">
       Challenge2
     </a>
