@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5"/>
+    <link rel="icon" href="devchallenges.png" />
+    <link href="input.css" rel="stylesheet"/>
+    <title>Inputs</title>
+  </head>
+  <body>
+    <section class="Menu">
+      <div class="Logo"><a id="dev" href="https://devchallenges.io/">Dev<span class="Logo">challenges.io</span></a></div>
+      <div class="menu-box">
+        <div class="Colors menu"><a href="index.html">Colors</a></div>
+        <div class="Typography menu"><a href="index.html">Typography</a></div>
+        <div class="Spaces menu"><a href="index.html">Spaces</a></div>
+        <div class="Buttons menu"><a href="index.html">Buttons</a></div>
+        <div class="Inputs menu"><a href="input.html">Inputs</a></div>
+        <div class="Grid menu"><a href="index.html">Grid</a></div>
+      </div>  
+    </section>
+    <section class="page">
+      <div class="page-box">
+        <div class="title">Inputs</div>
+
+        <div class="single">
+          <div class="single-box">
+              <span>&lt;Input&nbsp;/&gt;</span>
+              <div><label id="default" for="default">Label</label></div>
+              <div><input onblur="defaultblur()" onfocus="defaultfocus()" class="default" type="text" placeholder="Placeholder"></div>
+          </div>
+          <div class="single-box">
+              <span>&lt;Input&nbsp;error&nbsp;/&gt;</span>
+              <div><label id="error" for="error">Label</label></div>
+              <div><input onmouseenter="errorhover()" onmouseleave="errorleave()" class="error" type="text" placeholder="Placeholder"></div>
+          </div>
+          <div class="single-box">
+              <span>&lt;Input&nbsp;disabled&nbsp;/&gt;</span>
+              <div><label for="disabled">Label</label></div>
+              <div><label for="disabled">Label</label></div>
+              <div><input disabled class="disabled" type="text" placeholder="Placeholder"></div>
+          </div>
+        </div>
+
+        <div class="special">
+          <div class="special-box">
+              <span>&lt;Input&nbsp;helperText=”Some&nbsp;interesting&nbsp;text”&nbsp;/&gt;</span>
+              <div><label id="helper" for="helper">Label</label></div>
+              <small id="special-helper" class="helper-text">Some&nbsp;interesting&nbsp;text</small>
+              <div><input onblur="helperblur()" onfocus="helperfocus()" class="helper" type="text" placeholder="Placeholder"></div>
+            <span class="special-box">
+              <span>&lt;Input&nbsp;helperText=”Some&nbsp;interesting&nbsp;text”&nbsp;error&nbsp;/&gt;</span>
+              <div><label id="special-error" for="helper-error">Label</label></div>
+              <small id="special-helper-error" class="helper-text">Some&nbsp;interesting&nbsp;text</small>
+              <div><input onmouseenter="helpererrorhover()" onmouseleave="helpererrorleave()" id="special" class="helper-error" type="text" placeholder="Placeholder"></div>
+            </span>
+          </div>
+          <div class="special-box">
+              <span>&lt;Input&nbsp;startIcon&nbsp;&nbsp;/&gt;</span>
+              <div><label id="starticon" for="starticon">Label</label></div>
+              <div><input onblur="starticonblur()" onfocus="starticonfocus()" class="starticon" type="text" placeholder="Placeholder"></div>
+            <span class="special-box">
+              <span>&lt;Input&nbsp;endIcon&nbsp;&nbsp;/&gt;</span>
+              <div><label id="special-end" for="endicon">Label</label></div>
+              <div><input onblur="endiconblur()" onfocus="endiconfocus()" id="special" class="endicon" type="text" placeholder="Placeholder"></div>
+            </span>
+        </div>
+        </div>
+
+
+        <div class="single">
+          <div class="single-box">
+              <span>&lt;Input&nbsp;value=”text”&nbsp;/&gt;</span>
+              <div><label id="text" for="text">Label</label></div>
+              <div><input onblur="textblur()" onfocus="textfocus()" class="text" type="text" placeholder="Text"></div>
+          </div>
+        </div>
+
+        <div class="special">
+          <div class="special-box">
+              <span>&lt;Input&nbsp;size=”sm”&nbsp;/&gt;</span>
+              <div><label id="sm" for="sm">Label</label></div>
+              <div><input onblur="smblur()" onfocus="smfocus()" class="sm" type="text" placeholder="Placeholder"></div>
+            <span class="special-box">
+              <span>&lt;Input&nbsp;size=”md”&nbsp;/&gt;</span>
+              <div><label id="special-md" for="md">Label</label></div>
+              <div><input onblur="mdblur()" onfocus="mdfocus()" id="special" class="md" type="text" placeholder="Placeholder"></div>
+            </span>
+          </div>
+        </div>
+
+        <div class="single">
+          <div class="single-box last">
+              <span>&lt;Input&nbsp;fullWidth&nbsp;/&gt;</span>
+              <div><label id="full" for="full">Label</label></div>
+              <div><input onblur="fullblur()" onfocus="fullfocus()" class="full" type="text" placeholder="Text"></div>
+          </div>
+          <div class="single-box last">
+            <span>&lt;Input&nbsp;multiline&nbsp;row=”4”&nbsp;/&gt;</span>
+            <div><label id="multi" for="multi">Label</label></div>
+            <div><input onblur="multiblur()" onfocus="multifocus()" class="multi" type="text" placeholder="Placeholder"></div>
+          </div>
+        </div>
+
+        <div class="watermark">
+          created by 
+          <a href="https://github.com/EekSapi" class="ref">EekSapi</a> 
+          - <a href="https://devchallenges.io/" class="ref">devChallenges.io</a>
+        </div>
+
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>

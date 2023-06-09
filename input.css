@@ -1,0 +1,465 @@
+body{
+    margin: 0 0 0 0;
+    background-color: #FFFFFF;
+    display: inline;
+}
+
+/* ============SECTION 1============ */
+.Menu{
+    position: absolute;
+    width: 240px;
+    height: 210%;
+    background-color: #FAFBFD;
+}
+
+.menu-box{
+    position: sticky;
+    top: 68px;
+    padding: 180px 0 0 58px;
+}
+
+.menu{
+    margin-bottom: 25px;
+}
+
+.Inputs a{
+    color: #090F31;
+}
+
+    a{
+        text-decoration: none;
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #9E9E9E;
+    }
+
+    a:hover{
+        text-decoration: none;
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #090F31;
+    }
+
+    a:focus{
+        text-decoration: none;
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #090F31;
+    }
+
+.Logo{
+    position: sticky;
+    top: 47px;
+    margin: 47px 0 0 57px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    color: #090F31;
+}
+
+#dev{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    color: #F7542E;
+}
+
+a#dev{
+    text-decoration: none;
+}
+
+a#dev:hover{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #F7542E;
+}
+
+a .Logo:hover{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #090F31; 
+}
+
+span.Logo{
+    margin: 0 0 0 0;
+}
+
+/* ============SECTION 2============ */
+
+.page{
+    background: #FFFFFF;
+    margin: 0 0 0 240px;
+    height: 100%;
+}
+
+.page-box{
+    margin: 55px 0 0 85px;
+}
+
+.title{
+    margin-bottom: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #4F4F4F;
+}
+
+div label{
+    position: absolute;
+    margin-top: 30px;
+}
+
+div input{
+    position: absolute;
+    margin-top: 55px;
+    width: 185px;
+    height: 60px;
+
+    border-radius: 8px;
+}
+
+input{
+    cursor: pointer;
+    padding: 0 0 0 15px;
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #828282;
+}
+
+label{
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: #333333;
+}
+
+/* ============SINGLE BOX============ */
+
+.single{
+    margin-bottom: 40px;
+}
+
+.single-box{
+    height: 45px;
+    margin-bottom: 135px;
+}
+
+span.single-box{
+    position: absolute;
+}
+
+.single-box span{
+    position: absolute;
+    font-family: 'Ubuntu Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #333333;
+}
+
+span.single-box span{
+    margin: 0 0 0 250px;
+}
+
+
+#double{
+    margin: 30px 0 0 250px;
+}
+
+    .default{
+        border: 1px solid #828282;
+    }
+
+    .default:hover{
+        display: block;
+        border: 1px solid #333333;
+    }
+
+    .default:focus{
+        display: block;
+        border: 1px solid #2962FF;
+        outline-style: none;
+    }
+
+    #error{
+        color: #D32F2F;
+    }
+
+    .error{
+        border: 1px solid #D32F2F;
+    }
+
+    .error:hover{
+        display: block;
+        border: 1px solid #333333;
+    }
+
+    .error:focus{
+        display: block;
+        border: 1px solid #D32F2F;
+        outline-style: none;
+    }
+
+    .disabled{
+        background: #F2F2F2;
+        border: 1px solid #E0E0E0;
+    }
+    
+    .text::placeholder{
+        color: #333333;
+    }
+
+    .text{
+        border: 1px solid #828282;
+    }
+
+    .text:hover{
+        display: block;
+        border: 1px solid #333333;
+    }
+
+    .text:focus{
+        display: block;
+        border: 1px solid #2962FF;
+        outline-style: none;
+    }
+
+    .full::placeholder{
+        color: #333333;
+    }
+
+    .full{
+        width: 1000px;
+        border: 1px solid #828282;
+    }
+
+    .full:hover{
+        display: block;
+        border: 1px solid #333333;
+    }
+
+    .full:focus{
+        display: block;
+        border: 1px solid #2962FF;
+        outline-style: none;
+    }
+
+    .multi{
+        padding-top: 0;
+        height: 150px;
+        border: 1px solid #828282;
+    }
+
+    .multi:hover{
+        display: block;
+        border: 1px solid #333333;
+    }
+
+    .multi:focus{
+        display: block;
+        border: 1px solid #2962FF;
+        outline-style: none;
+    }
+
+/* ============SPECIAL BOX============ */
+
+.special{
+    margin-bottom: 40px;
+}
+
+.special-box{
+    height: 45px;
+    margin-bottom: 135px;
+}
+
+span.special-box{
+    position: absolute;
+}
+
+.special-box span{
+    position: absolute;
+    font-family: 'Ubuntu Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #333333;
+}
+
+span.special-box span{
+    margin: 0 0 0 350px;
+}
+
+#special-end{
+    margin: 30px 0 0 350px;
+}
+
+#special-md{
+    margin: 30px 0 0 350px;
+}
+
+#special{
+    margin:54px 0 0 350px;
+}
+
+.helper-text{
+    position: absolute;
+    margin-top: 120px;
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    color: #828282;
+}
+
+#special-label.helper-text{
+    margin-top: 120px;
+}
+
+    .helper{
+        border: 1px solid #828282;
+    }
+
+    .helper:hover{
+        display: block;
+        border: 1px solid #333333;
+    }
+
+    .helper:focus{
+        display: block;
+        border: 1px solid #2962FF;
+        outline-style: none;
+    }
+
+    #special-error{
+        color: #D32F2F;
+    }
+
+    .helper-error{
+        border: 1px solid #D32F2F;
+    }
+
+    .helper-error:hover{
+        display: block;
+        border: 1px solid #333333;
+    }
+
+    .helper-error:focus{
+        display: block;
+        border: 1px solid #D32F2F;
+        outline-style: none;
+    }
+
+    #special-error{
+        margin: 30px 0 0 350px;
+    }
+
+    #special-helper-error.helper-text{
+        color: #D32F2F;
+        margin-top: 120px;
+        margin-left: 350px ;
+    }
+
+    .starticon{
+        padding-left: 50px;
+        width: 150px;
+        background: url(phone.svg) no-repeat 12px 18px;
+        border: 1px solid #828282;
+    }
+
+    .starticon:hover{
+        display: block;
+        border: 1px solid #333333;
+    }
+
+    .starticon:focus{
+        display: block;
+        border: 1px solid #2962FF;
+        outline-style: none;
+    }
+
+    .endicon{
+        background: url(lock.svg) no-repeat 165px 16px;
+        border: 1px solid #828282;
+    }
+
+    .endicon:hover{
+        display: block;
+        border: 1px solid #333333;
+    }
+
+    .endicon:focus{
+        display: block;
+        border: 1px solid #2962FF;
+        outline-style: none;
+    }
+
+    .sm{
+        width: 185px;
+        height: 40px;
+        border: 1px solid #828282;
+    }
+
+    .sm:hover{
+        display: block;
+        border: 1px solid #333333;
+    }
+
+    .sm:focus{
+        display: block;
+        border: 1px solid #2962FF;
+        outline-style: none;
+    }
+
+    .md{
+        border: 1px solid #828282;
+    }
+
+    .md:hover{
+        display: block;
+        border: 1px solid #333333;
+    }
+
+    .md:focus{
+        display: block;
+        border: 1px solid #2962FF;
+        outline-style: none;
+    }
+
+.watermark{
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: left;
+    top: 80px;
+    color: #A9A9A9;
+}

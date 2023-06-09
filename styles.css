@@ -1,0 +1,563 @@
+body{
+    margin: 0 0 0 0;
+    background-color: #FFFFFF;
+    display: inline;
+}
+
+/* ============SECTION 1============ */
+.Menu{
+    position: absolute;
+    width: 240px;
+    height: 130%;
+    background-color: #FAFBFD;
+}
+
+.menu-box{
+    position: sticky;
+    top: 68px;
+    padding: 180px 0 0 58px;
+}
+
+.menu{
+    margin-bottom: 25px;
+}
+
+.Buttons a{
+    color: #090F31;
+}
+
+    a{
+        text-decoration: none;
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #9E9E9E;
+    }
+
+    a:hover{
+        text-decoration: none;
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #090F31;
+    }
+
+    a:focus{
+        text-decoration: none;
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #090F31;
+    }
+
+.Logo{
+    position: sticky;
+    top: 47px;
+    margin: 47px 0 0 57px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    color: #090F31;
+}
+
+#dev{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    color: #F7542E;
+}
+
+a#dev{
+    text-decoration: none;
+}
+
+a#dev:hover{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #F7542E;
+}
+
+a .Logo:hover{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #090F31; 
+}
+
+span.Logo{
+    margin: 0 0 0 0;
+}
+
+/* ============SECTION 2============ */
+
+.page{
+    background: #FFFFFF;
+    margin: 0 0 0 240px;
+    height: 100%;
+}
+
+.page-box{
+    margin: 55px 0 0 85px;
+}
+
+.title{
+    margin-bottom: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #4F4F4F;
+}
+
+div button{
+    position: absolute;
+    margin-top: 30px;
+    width: 90px;
+    height: 40px;
+}
+
+/* ============SINGLE BOX============ */
+.single{
+    margin-bottom: 45px;
+}
+
+.single-box{
+    height: 60px;
+    margin-bottom: 45px;
+}
+
+span.single-box{
+    position: absolute;
+}
+
+.single-box span{
+    position: absolute;
+    font-family: 'Ubuntu Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #333333;
+}
+
+span.single-box span{
+    margin: 0 0 0 250px;
+}
+
+#double{
+    margin: 30px 0 0 250px;
+}
+
+/* styling box */
+    .default{
+        width: 81px;
+        height: 36px;
+        cursor: pointer;
+        background: #E0E0E0;
+        box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+        border-radius: 6px;
+        border-style:none;
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #3F3F3F;
+    }
+
+    .default:hover,.default:focus{
+        background: #AEAEAE;
+    }
+
+    .outline{
+        width: 88px;
+        height: 36px;
+        cursor: pointer;
+        background: #FFFFFF;
+        border: 1px solid #3D5AFE;
+        border-radius: 6px;
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #3D5AFE;        
+    }
+
+    .outline:hover,.outline:focus{
+        background: rgba(41, 98, 255, 0.1);
+    }
+
+    .text{
+        width: 88px;
+        height: 36px;
+        cursor: pointer;
+        background: #FFFFFF;
+        border-style: none;
+        border-radius: 6px;
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #3D5AFE;
+    }
+
+    .text:hover,.text:focus{
+        background: rgba(41, 98, 255, 0.1);
+    }
+
+    .shadow{
+        width: 81px;
+        height: 36px;
+        cursor: pointer;
+        background: #3D5AFE;
+        border-radius: 6px;
+        border-style: none;
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;   
+    }
+
+    .shadow:hover,.shadow:focus{
+        background: transparent;
+    }
+
+    .disabled{
+        width: 88px;
+        height: 36px;
+        cursor: pointer;
+        background: #E0E0E0;
+        border-radius: 6px;
+        border-style: none;
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #9E9E9E;
+    }
+
+    .disabled-text{
+        cursor: pointer;
+        background: #FFFFFF;
+        border-radius: 6px;
+        border-style: none;
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #9E9E9E;
+    }
+
+/* ============SPECIAL BOX============ */
+
+.special{
+    margin-bottom: 45px;
+}
+
+.special-box{
+    height: 60px;
+    margin-bottom: 45px;
+}
+
+span.special-box{
+    position: absolute;
+}
+
+.special-box span{
+    position: absolute;
+    font-family: 'Ubuntu Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #333333;
+}
+
+span.special-box span{
+    margin: 0 0 0 350px;
+}
+
+#special{
+    margin: 30px 0 0 350px;
+}
+
+    .icon{
+        cursor: pointer;
+        width: 105px;
+        height: 36px;
+        background: #2962FF;
+        box-shadow: 0px 2px 3px rgba(0, 49, 202, 0.2);
+        border-radius: 6px;
+        border-style: none;
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .icon:hover,.icon:focus{
+        background: #0039CB;
+        box-shadow: 0px 2px 3px rgba(41, 98, 255, 0.2);
+    }
+
+/* ============TRIPLE BOX============ */
+
+.triple{
+    margin-bottom: 45px;
+}
+
+.triple-box{
+    height: 60px;
+    margin-bottom: 45px;
+}
+
+span.triple-box{
+    position: absolute;
+}
+
+.triple-box span{
+    position: absolute;
+    font-family: 'Ubuntu Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #333333;
+}
+
+span.triple-box span{
+    margin: 0 0 0 200px;
+}
+
+#triple{
+    margin: 30px 0 0 200px;
+}
+
+    .sm{
+        cursor: pointer;
+        width: 77px;
+        height: 32px;
+        background: #2962FF;
+        box-shadow: 0px 2px 3px rgba(0, 49, 202, 0.2);
+        border-radius: 6px;
+        border-style: none;
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF; 
+    }
+
+    .md{
+        cursor: pointer;
+        width: 81px;
+        height: 36px;
+        background: #2962FF;
+        box-shadow: 0px 2px 3px rgba(0, 49, 202, 0.2);
+        border-radius: 6px;
+        border-style: none;
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF; 
+    }
+
+    .lg{
+        cursor: pointer;
+        width: 93px;
+        height: 42px;
+        background: #2962FF;
+        box-shadow: 0px 2px 3px rgba(0, 49, 202, 0.2);
+        border-radius: 6px;
+        border-style: none;
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF; 
+    }
+
+    .sm:hover,.sm:focus,.md:hover,.md:focus,.lg:hover,.lg:focus{
+        background: #0039CB;
+        box-shadow: 0px 2px 3px rgba(41, 98, 255, 0.2);
+    }
+
+/* ============QUADRUPLE BOX============ */
+.quadruple{
+    margin-bottom: 0px;
+}
+
+.quadruple-box{
+    height: 60px;
+    margin-bottom: 45px;
+}
+
+span.quadruple-box{
+    position: absolute;
+}
+
+.quadruple-box span{
+    position: absolute;
+    font-family: 'Ubuntu Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #333333;
+}
+
+span.quadruple-box span{
+    margin: 0 0 0 200px;
+}
+
+#quadruple{
+    margin: 30px 0 0 200px;
+}
+
+    .color-default{
+        width: 81px;
+        height: 36px;
+        cursor: pointer;
+        background: #E0E0E0;
+        box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+        border-radius: 6px;
+        border-style: none;
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #3F3F3F ;
+    }
+
+    .color-default:hover,.color-default:focus{
+        background: #AEAEAE;
+    }
+
+    .color-primary{
+        width: 81px;
+        height: 36px;
+        cursor: pointer;
+        background: #2962FF;
+        box-shadow: 0px 2px 3px rgba(41, 98, 255, 0.2);
+        border-radius: 6px;
+        border-style: none;
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .color-primary:hover,.color-primary:focus{
+        background: #0039CB;;
+    }
+
+    .color-secondary{
+        width: 104px;
+        height: 36px;
+        cursor: pointer;
+        background: #455A64;
+        box-shadow: 0px 2px 3px rgba(69, 90, 100, 0.2);
+        border-radius: 6px;
+        border-style: none;
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .color-secondary:hover,.color-secondary:focus{
+        background: #1C313A;
+    }
+
+    .color-danger{
+        width: 81px;
+        height: 36px;
+        cursor: pointer;
+        background: #D32F2F;
+        box-shadow: 0px 2px 3px rgba(211, 47, 47, 0.2);
+        border-radius: 6px;
+        border-style: none;
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .color-danger:hover,.color-danger:focus{
+        background: #9A0007;
+    }
+
+
+.source,.source a{
+    margin-bottom: 40px;
+    font-family: 'Ubuntu Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #828282;
+}
+
+.source a:hover{
+    color: #494848;
+}
+
+.watermark{
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: left;
+    top: 50px;
+    margin-bottom: 30px;
+    color: #A9A9A9;
+}
