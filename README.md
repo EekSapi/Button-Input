@@ -40,7 +40,7 @@
 
 ![screenshot](https://github.com/EekSapi/Button-Input/blob/95bbebcca4cad99aab9c1eb831368a9fe470af35/Inputs.png)
 
-- Checkout my demo project on <a href="https://imaginative-nasturtium-88d3ab.netlify.app/">this link</a>
+- Checkout my demo project on <a href="https://main--luminous-snickerdoodle-4a2274.netlify.app/">this link</a>
 - This is my fourth project in term of making a responsive website
 - This improved my skill to be more concerned about user interface
 
