@@ -1,6 +1,4 @@
-<!-- Please update value in the {}  -->
-
-<h1 align="center">{Your project name}</h1>
+<h1 align="center">Button and Input EekSapi</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,16 +6,19 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://main--luminous-snickerdoodle-4a2274.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/EekSapi/Button-Input">
       Solution
     </a>
     <span> | </span>
     <a href="https://devchallenges.io/challenges/ohgVTyJCbm5OZyTB2gNY">
-      Challenge
+      Challenge1
+    </a>
+    <a href="https://devchallenges.io/challenges/TSqutYM4c5WtluM7QzGp">
+      Challenge2
     </a>
   </h3>
 </div>
@@ -29,64 +30,46 @@
 - [Overview](#overview)
   - [Built With](#built-with)
 - [Features](#features)
-- [How to use](#how-to-use)
 - [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
 
 <!-- OVERVIEW -->
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](https://github.com/EekSapi/Button-Input/blob/95bbebcca4cad99aab9c1eb831368a9fe470af35/Buttons.png)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+![screenshot](https://github.com/EekSapi/Button-Input/blob/95bbebcca4cad99aab9c1eb831368a9fe470af35/Inputs.png)
 
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+- Checkout my demo project on <a href="https://imaginative-nasturtium-88d3ab.netlify.app/">this link</a>
+- This is my fourth project in term of making a responsive website
+- This improved my skill to be more concerned about user interface
 
 ### Built With
 
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
-
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- HTML
+- CSS
+- JavaScript
 
 ## Features
 
-<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/ohgVTyJCbm5OZyTB2gNY) was to build an application to complete the given user stories:
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/ohgVTyJCbm5OZyTB2gNY) was to build an application to complete the given user stories.
+- [x] User story: I can see different button types: default, outline and text
+- [x] User story: I can choose to disable box-shadow
+- [x] User story: I can choose to disable the button
+- [x] User story: I can choose to have an icon on the left or right (Use Google Icon and at least 5 variants)
+- [x] User story: I can have different button sizes
+- [x] User story: I can have different colors
+- [x] User story: When I hover or focus, I can see visual indicators
+- [x] User story: I can still access all button attributes
+- [x] User story: I can see error state
+- [x] User story: I can choose to have helper text
+- [x] User story: I can have different input sizes
+- [x] User story: I can choose to have input take the width of the parent
+- [x] User story: I can have multiline input like a textarea
+- [x] User story: I can still access all input attributes
 
-## How To Use
-
-<!-- This is an example, please update according to your application -->
-
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
-
-```bash
-# Clone this repository
-$ git clone https://github.com/your-user-name/your-project-name
-
-# Install dependencies
-$ npm install
-
-# Run the app
-$ npm start
-```
-
-## Acknowledgements
-
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
-
-- [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
-- [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- GitHub [@EekSapi](https://github.com/Eeksapi)
